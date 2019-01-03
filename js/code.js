@@ -5,5 +5,6 @@ window.addEventListener("load", function(){
     if(document.body.getAttribute("data-palette")== "0"){
       palette = "1";
     }
+    document.body.setAttribute("data-palette",palette);
   });
 });
